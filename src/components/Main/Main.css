@@ -1,0 +1,37 @@
+.main {
+	/* px-44 */
+	@apply flex 2xl:px-52 h-3/5 xl:px-28 lg:px-28 md:px-20 justify-between items-center;
+}
+
+.title__content {
+	@apply flex flex-col;
+}
+
+.subtitle__content {
+	@apply 2xl:text-2xl xl:text-lg font-medium uppercase mt-7;
+}
+
+.description__content,
+.options__content {
+	@apply font-normal 2xl:text-base leading-5 xl:text-sm tracking-wider;
+}
+
+.description__content {
+	@apply max-w-md mt-7;
+}
+
+.options__content {
+	@apply mt-5;
+}
+
+.image__main {
+	@apply -mt-20;
+}
+
+.absolute-element__main {
+	@apply flex flex-col items-center space-y-12;
+}
+
+.count__absolute-element {
+	@apply text-brand-150 font-extrabold 2xl:text-brand-2xl xl:text-brand-xl lg:text-brand-lg md:text-8xl sm:text-2xl  pointer-events-none;
+}

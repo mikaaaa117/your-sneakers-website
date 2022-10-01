@@ -1,3 +1,31 @@
 .app {
-	@apply bg-brand-100;
+	@apply h-screen max-h-screen overflow-hidden;
+}
+
+.container-custom {
+	@apply m-0 p-[50px];
+}
+
+.activity {
+	@apply font-semibold border-b-2;
+}
+
+.section__item {
+	@apply px-4 uppercase flex items-center justify-center hover:scale-125 hover:cursor-pointer transition-transform duration-200;
+}
+
+.theme-switcher {
+	@apply flex space-x-2 items-center w-32;
+}
+
+.current-theme {
+	@apply font-semibold text-xl uppercase;
+}
+
+.item__language-switcher {
+	@apply text-lg text-brand-50;
+}
+
+.item-active {
+	@apply font-semibold;
 }
